@@ -31,7 +31,7 @@ export class LoginComponent {
     const user = JSON.stringify(this.form1.value.username);
     const pass = JSON.stringify(this.form1.value.password);
     if(username===user && password===pass){
-      alert("Login Successful");
+      
       window.location.href = 'home';
     }
     else{
