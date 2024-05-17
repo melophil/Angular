@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/footer",
+    "/home",
+    "/learning",
+    "/login",
+    "/signup",
+    "/tech-stack"
+  ]
+}
