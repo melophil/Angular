@@ -1,0 +1,97 @@
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 30rem;
+    margin: 10% auto;
+    padding: 2rem;
+    border: 1px solid #161515;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #a54b71, #117a8d);
+  }
+  form:hover{
+    background-image: linear-gradient(to right, #632740, #0b4b57);
+
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; 
+    width: 100%;
+  }
+  
+  form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #4CAF50;
+  }
+  
+  form .bt {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #e7e8ee;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  form .bt:hover {
+    background-color: #075309;
+  }
+  
+  form .bt:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  } 
+  form {
+    
+    animation: slide-in 0.5s ease-in-out;
+  }
+  h1{
+    animation: slide-in 0.5s ease-in-out;
+
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
